@@ -124,8 +124,11 @@ Interpretation: Risk-conservative and business-aligned
 Instead of raw probabilities, predictions were mapped to actionable risk buckets:
 
 Probability -	Risk - Level -	Business Action
+
 < 0.35 -	Low -	Normal - monitoring
+
 0.35 – 0.60 -	Medium -	Reminders & monitoring
+
 > 0.60 -	High -	Proactive risk controls
 
 This converts ML output → decision support.
